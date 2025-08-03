@@ -1,32 +1,27 @@
-# Online-Auction-DBMS
-Term Project for Data Base Management Course
+# Online Auction DBMS
+Term Project for Data Base Management Course (CSCI 435). No code in this repo to comply with Hunter College's academic honesty policy.
 
 ## Summary
-This is a database management system to manage bidding, auctions, and sales of goods and services on an online platform, inspired by eBay. The unedited verion contains 8 entites and 10+ relationships. The milestones for this project include:
+I developed a database management system to manage bidding, auctions, and sales of goods and services on an online platform, inspired by eBay. 
 
-1. Identify appropriate entities, relationships, attributes, domains, and keys as well as all specializations and generalizations
+It contains 8 entites (User, Auction, Transaction, Bid, etc.) and 10+ relationships (User's Place Bids, Transactions End Auctions, etc.).
 
+## Project Milestones
+
+1. Identified appropriate `entities`, `relationships`, `attributes`, `domains`, and `keys` as well as all `specializations` and `generalizations`
+2. Produced an `Entity-Relationship Diagram`
+3. Mapped and Normalized
+
+   a. Mapped the ERD to a `relational database model`
    
-3. Produce an Entity-Relationship Diagram
-
+   b. `Normalized` the database to 3NF
    
-4. Mapping and Normalization
+   c. Listed the integrity constraints for each table
 
-   a. Map the ERD to a relational database model
+4. Defined the database using `MySQL`
    
-   b. Normalize the database to 3NF
+   a. Created the tables in a MySQL database
    
-   c. List the integrity constraints for each table
-
-
-5. Defining the database
+   b. Inserted sample data
    
-   a. Create the tables in a MySQL database
-   
-   b. Insert sample data
-   
-   c. Execute queries to test correct insertion
-
-
-
-<code style="color: Purple">Content in this repo is edited to comply with Hunter College's academic honesty policy.</code>
+   c. Wrote and executed test queries to ensure correct insertion and interactions
